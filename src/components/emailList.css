@@ -1,0 +1,46 @@
+.emailList {
+    flex: 1;
+    overflow: auto;
+}
+
+.emailList::-webkit-scrollbar{
+    width:10px;
+    background-color: rgb(238, 197, 197);
+}
+.emailList::-webkit-scrollbar:hover{
+    background-color: rgb(134, 112, 112);
+}
+.emailList {
+    -ms-overflow-style: none;
+    scrollbar-width:none;
+}
+
+.emailList__settings {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding-right: 10px;
+}
+
+.emailList__sections{
+    position: sticky;
+    top: 0;
+    display: flex;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #ffffff;
+    z-index: 999;
+    height: 60px;
+}
+
+.emailList__list{
+    padding-bottom: 20%;
+}
+
+
+
+
+
