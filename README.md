@@ -1,5 +1,5 @@
 ### Intro
-This is Clone of Gmail web Application built in React, redux(state management), firebase(auth and realtime db), material-UI (for only icons and buttons)
+This is a Clone of Gmail web Application built in React, redux(state management), firebase(auth and realtime db), material-UI (only icons and buttons)
 
 ### `npm start`
 
